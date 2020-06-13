@@ -60,7 +60,7 @@
               3D дизайн и моделлинг
             </div>
             <div class="slider__text">
-              Дизайн и создание  игровых персонажей и игровых сцен
+              Дизайн и создание игровых персонажей и игровых сцен
             </div>
           </div>
         </div>
@@ -89,21 +89,22 @@
     </div>
   </section>
 
-  
+
   <section class="services">
     <div class="container">
       <div class="services__items">
         <div class="services__item">
           <img src="img/about-1.png" alt="">
           <div class="services__item-title">
-            Интерьерная и архитектурная визуализация 
+            Интерьерная и архитектурная визуализация
           </div>
           <div class="services__item-text">
             <p>- Фотореалистичная визуализация интерьеров в любом стиле</p>
             <p>- Архитектурные проекты с ландшафтным дизайном высокой сложности</p>
           </div>
           <div class="services__item-btn">
-            <a class="services__item-link" href="https://www.behance.net/gallery/97630015/Boutique-store-52-Plush-Fridays">Подробнее</a>
+            <a class="services__item-link"
+              href="https://www.behance.net/gallery/97630015/Boutique-store-52-Plush-Fridays">Подробнее</a>
           </div>
         </div>
         <div class="services__item">
@@ -116,7 +117,8 @@
             <p>- Дизайн и анимация персонажей и игровых сцен.</p>
           </div>
           <div class="services__item-btn">
-            <a class="services__item-link" href="https://www.behance.net/gallery/96582895/The-game-scene-Wizard-Forest-House">Подробнее</a>
+            <a class="services__item-link"
+              href="https://www.behance.net/gallery/96582895/The-game-scene-Wizard-Forest-House">Подробнее</a>
           </div>
         </div>
         <div class="services__item">
@@ -129,28 +131,32 @@
             <p>- Создание 3D панорам для просмотра в режиме виртуальной реальности</p>
           </div>
           <div class="services__item-btn">
-            <a class="services__item-link" href="https://www.behance.net/gallery/97033411/Virtual-construction-site-3D-structural-building">Подробнее</a>
+            <a class="services__item-link"
+              href="https://www.behance.net/gallery/97033411/Virtual-construction-site-3D-structural-building">Подробнее</a>
           </div>
         </div>
       </div>
     </div>
   </section>
-  
+
   <section class="about">
     <div class="container">
       <div class="about__inner">
         <div>
           <a id="about" class="about__title">
-          Григорий Цимбал @greengooza
+            Григорий Цимбал @greengooza
           </a>
         </div>
         <div class="about__text">
-          <p> 3D-дизайнер, 3D-моделлер, визуализатор.</p> 
-          <a>Специалист по 3D визуализации и трехмерному моделированию. Работаю в Autodesk 3ds Max и Autocad с 2002 года. С 2019 года в Unreal Engine 4, ZBrush 
-          и Blender. </a>
-          <a>Окончил МГСУ. Реализовал более 30 архитектурных и градостроительных проектов, жилых и общественных интерьеров.  
-          Участвовал в проектировании строительства и реконструкции стадиона "Динамо" в Москве, реконструкции и реставрация здания Московского Планетария.</a> 
-          <p>Опыт в индустрии архитектуры и дизайна 20+. Живу и работаю в Москве и Лимассоле.</p> 
+          <p> 3D-дизайнер, 3D-моделлер, визуализатор.</p>
+          <a>Специалист по 3D визуализации и трехмерному моделированию. Работаю в Autodesk 3ds Max и Autocad с 2002
+            года. С 2019 года в Unreal Engine 4, ZBrush
+            и Blender. </a>
+          <a>Окончил МГСУ. Реализовал более 30 архитектурных и градостроительных проектов, жилых и общественных
+            интерьеров.
+            Участвовал в проектировании строительства и реконструкции стадиона "Динамо" в Москве, реконструкции и
+            реставрация здания Московского Планетария.</a>
+          <p>Опыт в индустрии архитектуры и дизайна 20+. Живу и работаю в Москве и Лимассоле.</p>
         </div>
         <a href="https://www.linkedin.com/in/grigory-tsimbal-75b443188/" class="about__btn default-btn">
           Linkedin
@@ -158,7 +164,7 @@
       </div>
     </div>
   </section>
-  
+
   <section class="form">
     <div class="container">
       <div class="form__inner">
@@ -168,41 +174,36 @@
               Отправьте мне свой вопрос
             </div>
           </div>
-          <div class="form__box">
-            <form>
+          <form>
+
+            <!-- Hidden Required Fields -->
+            <input type="hidden" name="project_name" value="greengooza">
+            <input type="hidden" name="admin_email" value="gtsimbal@mail.ru">
+            <input type="hidden" name="form_subject" value="footer form">
+            <!-- END Hidden Required Fields -->
+
+            <div class="form__box">
               <div class="form__box-inner">
                 <div class="form__box-left">
-                  <label>
-                    E-mail
-                    <input type="text">
-                  </label>
-                  <label>
-                    Контактный телефон
-                    <input type="text">
-                  </label>
-                  <label>
-                    ФИО
-                    <input type="text">
-                  </label>
-                  <label>
-                    Тема вопроса
-                    <select>
-                      <option>Визуализация</option>
-                      <option>3D моделлинг</option>
-                      <option>VR</option>
-                    </select>
-                  </label>
+                  <input type="Name" class="text" value="Имя " onfocus="this.value = '';" onblur="if (this.value == '')
+                    {this.value = 'Имя ';}">
+
+                  <input type="Phone" class="text" value="Контактный телефон " onfocus="this.value = '';" onblur="if (this.value == '')
+                    {this.value = 'Контактный телефон ';}">
+
+                  <input type="E-mail" class="text" value="E-mail " onfocus="this.value = '';" onblur="if (this.value == '')
+                    {this.value = 'E-mail ';}">
                 </div>
+
                 <div class="form__box-right">
-                  <label>
-                    Сообщение
-                    <textarea></textarea>
-                  </label>
-                  <button class="default-btn" type="submit">Отправить вопрос</button>
+                  <textarea value="Сообщение " onfocus="this.value = '';"
+                    onblur="if (this.value == 'Сообщение') {this.value = 'Сообщение';}">Сообщение
+                  </textarea>
                 </div>
               </div>
-            </form>
-          </div>
+            </div>
+            <button type="submit">Отправить вопрос</button>
+          </form>
         </div>
       </div>
     </div>
@@ -211,10 +212,10 @@
   <footer class="footer">
     <div class="footer__content">
       <div class="container">
-            <ul class="footer__list">
-              <li><a id="footer" class="footer__phone" href="tel:79295887602">+7 (929) 588 76 02</a></li>
-              <li><a href="mailto:gtsimbal@mail.ru">gtsimbal@mail.ru</a></li>
-            </ul>
+        <ul class="footer__list">
+          <li><a id="footer" class="footer__phone" href="tel:79295887602">+7 (929) 588 76 02</a></li>
+          <li><a href="mailto:gtsimbal@mail.ru">gtsimbal@mail.ru</a></li>
+        </ul>
       </div>
     </div>
     <div class="footer__copy">
@@ -224,21 +225,15 @@
         </div>
       </div>
     </div>
-  </footer> 
-
-  <div id="modal">
-    <form>
-      <input type="text" placeholder="Ваше имя">
-      <input type="text" placeholder="Ваш телефон">
-      <input type="submit" value="Отправить" href="mailto:gtsimbal@mail.ru">
-    </form>
-  </div>
+  </footer>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="js/jquery.fancybox.min.js"></script>
   <script src="js/slick.min.js"></script>
+  <script src="js/script.js"></script>
   <script src="js/jquery.formstyler.min.js"></script>
   <script src="js/main.js"></script>
+
 
 </body>
 
