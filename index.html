@@ -174,40 +174,60 @@
               Отправьте мне свой вопрос
             </div>
           </div>
-          <form>
-
-            <!-- Hidden Required Fields -->
-            <input type="hidden" name="project_name" value="greengooza">
-            <input type="hidden" name="admin_email" value="gtsimbal@mail.ru">
-            <input type="hidden" name="form_subject" value="footer form">
-            <!-- END Hidden Required Fields -->
-
-            <div class="form__box">
-              <div class="form__box-inner">
-                <div class="form__box-left">
-                  <input type="Name" class="text" value="Имя " onfocus="this.value = '';" onblur="if (this.value == '')
-                    {this.value = 'Имя ';}">
-
-                  <input type="Phone" class="text" value="Контактный телефон " onfocus="this.value = '';" onblur="if (this.value == '')
-                    {this.value = 'Контактный телефон ';}">
-
-                  <input type="E-mail" class="text" value="E-mail " onfocus="this.value = '';" onblur="if (this.value == '')
-                    {this.value = 'E-mail ';}">
-                </div>
-
-                <div class="form__box-right">
-                  <textarea value="Сообщение " onfocus="this.value = '';"
-                    onblur="if (this.value == 'Сообщение') {this.value = 'Сообщение';}">Сообщение
-                  </textarea>
-                </div>
+          <div class="form__box">
+            <div class="form__box-inner">
+              <div class="form__box-left">
+                <label>
+                  E-mail
+                  <input type="text">
+                </label>
+                <label>
+                  Контактный телефон
+                  <input type="text">
+                </label>
+                <label>
+                  ФИО
+                  <input type="text">
+                </label>
+                <label>
+                  Тема вопроса
+                  <select>
+                    <option>Визуализация</option>
+                    <option>3D моделлинг</option>
+                    <option>VR</option>
+                  </select>
+                </label>
+              </div>
+              <div class="form__box-right">
+                <label>
+                  Сообщение
+                  <textarea></textarea>
+                </label>
+                <button class="default-btn" type="submit">Отправить вопрос</button>
               </div>
             </div>
-            <button type="submit">Отправить вопрос</button>
-          </form>
+          </div>
         </div>
       </div>
     </div>
   </section>
+
+  <form>
+
+    <!-- Hidden Required Fields -->
+    <input type="hidden" name="project_name" value="greengooza">
+    <input type="hidden" name="admin_email" value="gtsimbal@mail.ru">
+    <input type="hidden" name="form_subject" value="footer form">
+    <!-- END Hidden Required Fields -->
+
+    <input type="text" name="Name" placeholder="You name..." required><br>
+    <input type="text" name="E-mail" placeholder="You E-mail..." required><br>
+    <input type="text" name="Phone" placeholder="You phone..."><br>
+    <button>Send</button>
+
+  </form>
+
+
 
   <footer class="footer">
     <div class="footer__content">
@@ -227,7 +247,7 @@
     </div>
   </footer>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="js/jquery.fancybox.min.js"></script>
   <script src="js/slick.min.js"></script>
   <script src="js/jquery.formstyler.min.js"></script>
